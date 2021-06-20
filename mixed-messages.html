@@ -1,20 +1,17 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script type = "text/javascript" src='mixed-messages.js'></script>
-        <script >
-            function randomMessageGenerator() {
-            document.getElementById("js").innerHTML = randomMessageGenerator()
-            }
-        </script>
-        
+        <link rel='stylesheet' href='./mixed-messages.css'>
     </head>
     <body>
-        hello world
-        <div id='randomMessage'>
-            
+        <header>
+            <h1>Hello World</h1>
+        </header>
+        <div class="container">
+            <button type="button" onClick="document.getElementById('js').innerHTML  = generatedMessage">Click for random message</button>
+            <button onClick='window.location.reload()'>Reset</button>
         </div>
-    <input type="button" onClick="randomMessageGenerator()">Click for random message</input>
-        <div id="js"></div>
-</body>
+        <div class="message" id="js"></div>
+    <script type = "text/javascript" src='./mixed-messages.js'></script>
+    </body>
 </html>

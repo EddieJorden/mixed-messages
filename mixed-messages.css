@@ -1,0 +1,23 @@
+* {
+	background-color: rgb(3, 2, 65);
+	color: blanchedalmond;
+	font-size: larger;
+}
+
+header {
+	text-align: center;
+}
+
+button {
+	color: brown;
+	background-color: burlywood;
+}
+
+.container {
+	/* background-color: dimgrey; */
+	display: flex;
+}
+
+.message {
+	font-size: 50px;
+}
